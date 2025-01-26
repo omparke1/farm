@@ -103,7 +103,7 @@ table {
   header h3 {
     font-size: 1.25em;
     font-family: var(--main-text);
-    color: var(--white);
+    color: var(--black);
     text-align: center;
     font-style: italic;
     padding-top: .25em;
@@ -112,12 +112,12 @@ table {
     background: var(--green);
   }
 
-  nav ul {
+  #main-nav ul {
     text-align: center;
     margin-top: 2.5em;
   }
 
-  nav ul li {
+  #main-nav ul li {
     margin: 1em 5em;
     padding: .5em;
     background: var(--orange);
@@ -126,7 +126,7 @@ table {
     border-radius: 5px;
   }
 
-  nav ul li a {
+  #main-nav ul li a {
     color: var(--white);
     text-decoration: none;
   }
@@ -144,7 +144,7 @@ table {
     margin-left: 1em;
   }
 
-  #fruit h3 {
+  #fruit h3, #veggie h3 {
     font-size: 1.25em;
     font-family: var(--titles);
     text-align: center;
@@ -152,15 +152,15 @@ table {
     margin-bottom: .75em;
   }
 
-  #fruit-container {
+  #fruit-container, #veggie-container {
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-row-gap: 3.5em;
+    grid-row-gap: .50em;
     justify-items: center;
   }
 
-  #fruit-container figure {
+  figure {
     position: relative;
     width: 100%;
     display: flex;
@@ -168,60 +168,28 @@ table {
     align-items: center;
   }
 
-  #fruit-container figure img {
+  figure img {
     height: auto;
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 3em;
   }
-   #fruit-container figure figcaption {
+   figure figcaption {
     height: auto;
     position: absolute;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 6em;
-    padding: .75em 1.5em;
-    max-width: 100%;
-    top: 6.5em;
-    background-color: rgb(0 0 0 / 67%);
-    color: var(--white);
-    font-size: 1.25em;
-   }
-
-   #veggie-container {
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 3.5em;
-    justify-items: center;
-  }
-
-  #veggie-container figure {
-    position: relative;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  #veggie-container figure img {
-    height: auto;
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-  }
-   #veggie-container figure figcaption {
-    height: auto;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 6em;
-    padding: .75em 2.2em;
+    justify-content: center;
+    padding: .75em 0;
+    width: 150px;
     max-width: 100%;
     top: 6.5em;
     background-color: rgb(0 0 0 / 67%);
     color: var(--white);
     font-size: 1.25em;
+    text-align: center;
    }
 
    footer {
@@ -230,36 +198,40 @@ table {
 
    footer h2 {
     padding-top: 1.5em;
+    margin-bottom: .75em;
     color: var(--white);
     text-align: center;
+    font-size: 1.75em;
+    font-family: var(--titles);
    }
 
-   p {
+   footer p {
     font-size: 1.25em;
     text-align: center;
     color: var(--white);
    }
 
-   footer h3 {
+   #hours h2 {
     font-family: var(--titles);
-    margin-top: 2em;
+    margin-top: .75em;
     margin-bottom: .75em;
-    font-size: 1.50em;
+    font-size: 1.75em;
     color: var(--white);
     text-align: center;
    }
 
-   footer nav ul li {
-    position: absolute;
-    padding-top: .75em;
-    padding-bottom: .75em;
-    margin: 0 11.25em 0 21.5em;
-    top: -80%;
-    border: 2px solid var(--white);
+    #copyright p {
+      padding-top: .15em;
+      padding-bottom: .50em;
+      margin-top: 1em;
+      margin-left: 0;
+      color: var(--green);
+      background: var(--white);
+      font-size: 1.25em;
+      font-family: var(--main-text);
+    }
    }
-  
 
-}
 
 
 
