@@ -87,10 +87,10 @@ table {
     --white: #ffffff;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-head {
+body {
     background: var(--green);
   }
-  
+
 @media screen and (min-width: 428px) {
     
     h1 {
