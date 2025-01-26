@@ -131,7 +131,7 @@ table {
     text-decoration: none;
   }
 
-  h2 {
+  main h2 {
     font-size: 1.75em;
     font-family: var(--titles);
     margin: 2em .5em .5em .60em;
@@ -144,7 +144,7 @@ table {
     margin-left: 1em;
   }
 
-  main h3 {
+  #fruit h3 {
     font-size: 1.25em;
     font-family: var(--titles);
     text-align: center;
@@ -229,9 +229,9 @@ table {
    }
 
    footer h2 {
-    padding-top: 2em;
-    text-align: center;
+    padding-top: 1.5em;
     color: var(--white);
+    text-align: center;
    }
 
    p {
@@ -239,6 +239,26 @@ table {
     text-align: center;
     color: var(--white);
    }
+
+   footer h3 {
+    font-family: var(--titles);
+    margin-top: 2em;
+    margin-bottom: .75em;
+    font-size: 1.50em;
+    color: var(--white);
+    text-align: center;
+   }
+
+   footer nav ul li {
+    position: absolute;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    margin: 0 11.25em 0 21.5em;
+    top: -80%;
+    border: 2px solid var(--white);
+   }
+  
+
 }
 
 
