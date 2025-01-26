@@ -229,6 +229,13 @@ table {
    }
 
    footer h2 {
+    padding-top: 2em;
+    text-align: center;
+    color: var(--white);
+   }
+
+   p {
+    font-size: 1.25em;
     text-align: center;
     color: var(--white);
    }
