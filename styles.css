@@ -88,10 +88,6 @@ table {
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
-header {
-  background: var(--green);
-}
-
 @media screen and (min-width: 428px) {
 
   h1 {
@@ -99,15 +95,59 @@ header {
     font-family: var(--titles);
     color: var(--white);
     text-align: center;
+    background: var(--green);
+    text-shadow: var(--black) 3px 3px;
+    padding-bottom: .25em;
   }
 
-  h3 {
+  header h3 {
     font-size: 1.25em;
     font-family: var(--main-text);
     color: var(--white);
     text-align: center;
+    font-style: italic;
+    padding-top: .25em;
+    padding-bottom: 1em;
+    margin-bottom: .5em;
+    background: var(--green);
   }
+
+  nav ul {
+    text-align: center;
+    margin-top: 2.5em;
+  }
+
+  nav ul li {
+    margin: 1em 5em;
+    padding: .5em;
+    background: var(--orange);
+    color: var(--main-text);
+    font-size: 15pt;
+    border-radius: 5px;
+  }
+
+  nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  h2 {
+    font-size: 1.75em;
+    font-family: var(--titles);
+    margin: 2em .5em .5em .25em;
+  }
+
+  p {
+    font-family: var(--main-text);
+    font-size: 12pt;
+    line-height: 1.50em;
+    margin-left: 1em;
+  }
+
 }
+
+
+
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
