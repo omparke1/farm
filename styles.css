@@ -131,6 +131,33 @@ table {
     text-decoration: none;
   }
 
+  #top-button {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+  }
+
+  #top-button ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #top-button ul li {
+    margin: 0;
+  }
+
+  #top-button ul li a {
+    text-decoration: none;
+    padding: .85em .55em;
+    color: var(--white);
+    background: var(--orange);
+    font-family: var(--main-text);
+    font-size: 1.25em;
+    border: 2px solid var(--white);
+    border-radius: 6px;
+  }
+
   main h2 {
     font-size: 1.75em;
     font-family: var(--titles);
