@@ -122,7 +122,7 @@ table {
     padding: .5em;
     background: var(--orange);
     color: var(--main-text);
-    font-size: 15pt;
+    font-size: 1.25em;
     border-radius: 5px;
   }
 
@@ -134,16 +134,104 @@ table {
   h2 {
     font-size: 1.75em;
     font-family: var(--titles);
-    margin: 2em .5em .5em .25em;
+    margin: 2em .5em .5em .60em;
   }
 
   p {
     font-family: var(--main-text);
-    font-size: 12pt;
+    font-size: 1.25em;
     line-height: 1.50em;
     margin-left: 1em;
   }
 
+  main h3 {
+    font-size: 1.25em;
+    font-family: var(--titles);
+    text-align: center;
+    margin-top: 1.50em;
+    margin-bottom: .75em;
+  }
+
+  #fruit-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 3.5em;
+    justify-items: center;
+  }
+
+  #fruit-container figure {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #fruit-container figure img {
+    height: auto;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+   #fruit-container figure figcaption {
+    height: auto;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 6em;
+    padding: .75em 1.5em;
+    max-width: 100%;
+    top: 6.5em;
+    background-color: rgb(0 0 0 / 67%);
+    color: var(--white);
+    font-size: 1.25em;
+   }
+
+   #veggie-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 3.5em;
+    justify-items: center;
+  }
+
+  #veggie-container figure {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #veggie-container figure img {
+    height: auto;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+   #veggie-container figure figcaption {
+    height: auto;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 6em;
+    padding: .75em 2.2em;
+    max-width: 100%;
+    top: 6.5em;
+    background-color: rgb(0 0 0 / 67%);
+    color: var(--white);
+    font-size: 1.25em;
+   }
+
+   footer {
+    background: var(--green);
+   }
+
+   footer h2 {
+    text-align: center;
+    color: var(--white);
+   }
 }
 
 
