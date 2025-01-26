@@ -87,13 +87,14 @@ table {
     --white: #ffffff;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-body {
+header {
     background: var(--green);
   }
 
 @media screen and (min-width: 428px) {
     
     h1 {
+        padding-top: .25;
         font-family: var(--titles);
         color: var(--white);
         text-align: center;
