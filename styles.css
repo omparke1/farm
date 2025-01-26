@@ -79,27 +79,32 @@ table {
 }
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 :roots {
-    --main-text: 'Habibi, sans serif';
-    --titles: 'Irish Grover, sans serif';
+    --main-text: 'Habibi', sans serif;
+    --titles: 'Irish Grover', sans serif;
     --green: #06A816;
     --orange: #E75D02;
     --black: #000000;
     --white: #ffffff;
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+head {
+    background: var(--green);
+  }
+  
 @media screen and (min-width: 428px) {
-    head {
-        background: var(--green);
-      }
     
     h1 {
         font-family: var(--titles);
         color: var(--white);
         text-align: center;
+        font-size: 2.5em;
     }
 
-    p {
+    h2 {
         font-family: var(--main-text);
+        color: var(--white);
+        font-size: 1.75em;
+        text-align: center;
     }
   }
 
