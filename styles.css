@@ -379,11 +379,20 @@ table {
   }
 
   #contact h2 {
-    margin-right: 2.5em;
+    margin-right: 4em;
   }
 }
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+
+@media screen and (min-width: 1440px) {
+  #fruit-container, #veggie-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+}
+
 
 
 
