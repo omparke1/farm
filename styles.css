@@ -355,7 +355,7 @@ table {
   }
 
   #main-nav ul {
-    margin-left: 36em;
+    margin-left: 39em;
     margin-top: 2em;
     margin-bottom: 0;
   }
@@ -364,6 +364,22 @@ table {
     float: right;
     margin-bottom: .50em;
     border: 2px solid var(--white);
+  }
+
+  #fruit-container, #veggie-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+
+  #contact, #hours {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #contact h2 {
+    margin-right: 2.5em;
   }
 }
 
