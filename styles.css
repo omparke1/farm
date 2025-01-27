@@ -280,7 +280,9 @@ table {
 
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
+
 @media screen and (min-width: 834px) {
+  
   header {
     display: block;
   }
@@ -325,7 +327,46 @@ table {
     margin: .75em;
   }
 }
-/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+/*-------------------- MEDIA QUERY (large) 
+------------------------------------*/
+
+@media screen and (min-width: 1280px) {
+
+  header {
+    background: var(--green);
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 1em;; 
+    margin: 0;
+  }
+
+  header h1 {
+    position: absolute;
+    margin-right: 25em;
+    margin-bottom: .50em;
+  }
+
+  header h3 {
+    position: absolute;
+    margin-top: 3.7em;
+    margin-right: auto;
+    margin-left: .85em;
+    padding: 0;
+  }
+
+  #main-nav ul {
+    margin-left: 36em;
+    margin-top: 2em;
+    margin-bottom: 0;
+  }
+
+  #main-nav ul li{
+    float: right;
+    margin-bottom: .50em;
+    border: 2px solid var(--white);
+  }
+}
+
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
 
